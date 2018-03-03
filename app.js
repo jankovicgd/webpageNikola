@@ -1,6 +1,13 @@
-var http = require('http');
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hello World\n');
-}).listen(8080, 'localhost');
+ express = require('express');
+var path = require('path');
+
+var app = express();
+
+app.use(express.static(__dirname + '/public'));
+
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname+'/index.html'));
+});
+
+app.listen(8080);
 console.log('Server running at http://localhost:8080/');

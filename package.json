@@ -1,0 +1,27 @@
+{
+  "name": "webpagenikola",
+  "version": "1.0.0",
+  "description": "Webpage",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jankovicgd/webpageNikola.git"
+  },
+  "keywords": [
+    "webpage",
+    "nikola",
+    "jankovic"
+  ],
+  "author": "Nikola Jankovic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jankovicgd/webpageNikola/issues"
+  },
+  "homepage": "https://github.com/jankovicgd/webpageNikola#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
