@@ -8,7 +8,7 @@ var assetsPath = path.join(__dirname, 'public')
 console.log(assetsPath);
 
 // Specifying to use the path as static
-app.use('/public', express.static(assetsPath));
+app.use(express.static(assetsPath));
 
 // Home get route
 app.get('/', function(req, res) {
