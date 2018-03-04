@@ -3,7 +3,7 @@ var path = require('path');
 
 var app = express();
 
-var assetsPath = path.join(__dirname, 'public')
+var assetsPath = path.join(__dirname, 'public/')
 console.log(assetsPath);
 app.use(express.static(assetsPath));
 
