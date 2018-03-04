@@ -153,7 +153,7 @@
 
             $.ajax({
                     type: 'POST',
-                    url: '../email-php/mail_handler.php', // Form script
+                    url: '/email-php/mail_handler.php', // Form script
                     data: post_data
                 })
                 .done(function () {

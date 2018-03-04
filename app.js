@@ -5,7 +5,6 @@ var app = express();
 
 // Setting the path to static folder
 var assetsPath = path.join(__dirname, 'public')
-console.log(assetsPath);
 
 // Specifying to use the path as static
 app.use(express.static(assetsPath));
@@ -13,6 +12,11 @@ app.use(express.static(assetsPath));
 // Home get route
 app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
+});
+
+// Error 404 message on page miss
+app.get('*', function(req, res) {
+    res.status(404).send('Error 404');
 });
 
 // Listen on this port
