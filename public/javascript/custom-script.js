@@ -9,19 +9,6 @@
         $('#intro').addClass('animated fadeInDown');
         $('#intro-div').addClass('animated fadeInUp');
         $('#profile').addClass('animated zoomIn');
-		
-		
-		/* =============== Portfolio Filterizr Initialize =============== */
-		$(function() {
-			//Initialize filterizr with default options
-			$('.filtr-container').filterizr();
-
-			$('.simple-filter li').on('click', function() {
-				$('.simple-filter li').removeClass('active-cat');
-				$(this).addClass('active-cat');
-			});
-		});
-		
     });
 
 
@@ -140,53 +127,6 @@
             $("#content-12").slideToggle();
         });
 
-
-
-        /* =============== Client Swiper Initialize =============== */
-        var clientSwiper = new Swiper ('#client-slider', {
-            slidesPerView: 1,
-
-            loop: true,
-            direction: 'horizontal',
-            effect: "slide",
-            speed: 1500,
-            autoplay: 5000,
-            spaceBetween: 0,
-            pagination: '.swiper-pagination',
-            paginationClickable: true,
-            autoplayDisableOnInteraction: false,
-        });
-
-
-
-        /* =============== Pricing table =============== */
-        var $monthBtn = $('#month-btn');
-        var $yearBtn = $('#year-btn');
-        var $month = $('#month');
-        var $year = $('#year');
-
-        $month.show();
-        $year.hide();
-
-        $monthBtn.on('click', function() {
-            $month.show();
-            $year.hide();
-            $month.addClass('animated fadeIn');
-            $monthBtn.addClass('active-cat');
-            $yearBtn.removeClass('active-cat');
-
-        });
-
-        $yearBtn.on('click', function() {
-            $month.hide();
-            $year.show();
-            $year.addClass('animated fadeIn');
-            $yearBtn.addClass('active-cat animated');
-            $monthBtn.removeClass('active-cat');
-        });
-
-
-
         /* =============== Back To Top =============== */
         var offset = 300,
             scroll_top_duration = 700,
@@ -204,8 +144,6 @@
             );
         });
 
-
-
         /* =============== Email Handling =============== */
         $('form#contact-form').on('submit', function (e) {
             e.preventDefault(); //Prevents default submit
@@ -215,7 +153,7 @@
 
             $.ajax({
                     type: 'POST',
-                    url: 'email-php/mail_handler.php', // Form script
+                    url: '../email-php/mail_handler.php', // Form script
                     data: post_data
                 })
                 .done(function () {
@@ -246,12 +184,12 @@
                     $("#submit").removeAttr('disabled', 'disabled'); // Enable submit button
                 });
         });
-        
+
     });
 
 
-    
-    
+
+
 
 
 })(jQuery);
