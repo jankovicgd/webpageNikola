@@ -1,3 +1,5 @@
+const PORT = process.env.PORT || 5000
+
 var express =   require('express'),
     path    =   require('path');
 
@@ -20,5 +22,4 @@ app.get('*', function(req, res) {
 });
 
 // Listen on this port
-app.listen(8080);
-console.log('Server running at http://localhost:8080/');
+app.listen(PORT);
