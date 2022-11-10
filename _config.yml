@@ -1,0 +1,173 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Nikola Jankovic
+title: Geospatial IT Engineer
+email: jankovic.gd@gmail.com
+website: njankovic.com
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+twitter_username: jankovic_gd
+github_username: jankovicgd
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: jankovicgd
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+#   - title: itsgoingto.be
+#     icon: fas fa-globe
+#     url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+gtag: "UA-40484664-2"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Nikola and I'm a geospatial IT engineer working with Earth Observation data. Next to backend and data development I also have experience with kubernetes/docker configuration. I have worked at a number of companies gaining teamwork and leadership skills.
+
+  I am most skilled in: <mark>python</mark> and <mark>gis</mark>
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Super awesome project
+        link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title: sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: EOX IT Services GmbH
+        link: https://www.eox.at/
+        # link_text: boringcompany.com
+        sub_title: Geospatial IT Engineer
+        caption: February 2021 - current
+        quote: >
+          EOX offers solutions and services in the geodata domain in general and in the Earth Observation domain in particular.
+        description: | # this will include new lines to allow paragraphs
+          GIS Software development concerning storage, manipulation and services of earth observation remotely sensed data.
+      - layout: left
+        title: Earth Observation Data Centre - EODC GmbH
+        link: https://www.eodc.eu/
+        # link_text: boringcompany.com
+        sub_title: GIS Software developer
+        caption: July 2018 - January 2021
+        quote: >
+          EODC assist their partners and customers with their expertise in earth observation (EO) and information technology (IT) to create current and future-oriented benefits for society and environment.
+        description: | # this will include new lines to allow paragraphs
+          GIS Software development concerning storage, manipulation and services of earth observation remotely sensed data.
+      - layout: left
+        title: Vienna University of Technology
+        link: https://www.tuwien.at/
+        # link_text: boringcompany.com
+        sub_title: University Assistant
+        caption: February 2017 - March 2018
+        quote: >
+          TU Wien is one of the major universities in Vienna, Austria. The university finds high international and domestic recognition in teaching as well as in research, and it is a highly esteemed partner of innovation-oriented enterprises.
+        description: | # this will include new lines to allow paragraphs
+          Research and writing of master thesis regarding spatial standards ISO 19100 series, INSPIRE, LPIS and web development of a geoportal web application for agricultural subsidies.
+      - layout: left
+        title: Vienna University of Technology
+        link: https://www.tuwien.at/
+        # link_text: boringcompany.com
+        sub_title: Guest Researcher
+        caption: June 2016 - September 2016
+        quote: >
+          TU Wien is one of the major universities in Vienna, Austria. The university finds high international and domestic recognition in teaching as well as in research, and it is a highly esteemed partner of innovation-oriented enterprises.
+        description: | # this will include new lines to allow paragraphs
+          Research and writing of master thesis regarding spatial standards ISO 19100 series, INSPIRE, LPIS and web development of a geoportal web application for agricultural subsidies.
+      - layout: left
+        title: University of Novi Sad, Faculty of Technical Sciences
+        link: https://www.ftn.uns.ac.rs/
+        # link_text: boringcompany.com
+        sub_title: Teaching Fellow
+        caption: October 2013 - June 2016
+        quote: >
+          The Faculty of Technical Sciences is a higher education institution located in Novi Sad, an independent part of the University of Novi Sad. It was founded on 18 May 1960 and today it is the largest faculty in Serbia by number of students and one of the largest in the region. As of 2020-21 academic year, it has a total of 15,742 students.
+        description: | # this will include new lines to allow paragraphs
+          Research and assisting in courses Land Surveying for Civil Engineering, Engineering Geodesy, Utility Information Systems.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: University of Novi Sad, Faculty of Technical Sciences
+        caption: 2015 - 2016
+        sub_title: Msc Geodesy and Geomatics
+        quote: >
+          The Faculty of Technical Sciences is a higher education institution located in Novi Sad, an independent part of the University of Novi Sad. It was founded on 18 May 1960 and today it is the largest faculty in Serbia by number of students and one of the largest in the region. As of 2020-21 academic year, it has a total of 15,742 students.
+        description: | # this will include new lines to allow paragraphs
+          Strong focus in geoinformation and GIS. Geoportal web development with standards and standardization. Working with GIS software and CAD software.
+      - layout: left
+        title: University of Novi Sad, Faculty of Technical Sciences
+        caption: 2011 - 2015
+        sub_title: BSc Geodesy and Geomatics
+        quote: >
+          The Faculty of Technical Sciences is a higher education institution located in Novi Sad, an independent part of the University of Novi Sad. It was founded on 18 May 1960 and today it is the largest faculty in Serbia by number of students and one of the largest in the region. As of 2020-21 academic year, it has a total of 15,742 students.
+        description: | # this will include new lines to allow paragraphs
+          Courses in Land surveying, geodesy, geoinformation. Main focus in geospatial data processing, spatial databases and GIS.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in gis and software engineering some of my other interests and hobbies are:
+      - Traveling
+      - Reading
+      - Research / Teaching / Lifelong learning
+      - Gaming
+
+      Look at this cool image  
+      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
