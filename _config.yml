@@ -57,20 +57,65 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: View Server
+        link: https://gitlab.eox.at/vs
+        # link_text: Project Website
+        # additional_links:
+        #   - title: sproogen/modern-resume-theme
+        #     icon: fab fa-gitlab
+        #     url: github.com/sproogen/modern-resume-theme
+        # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #   icon: fab fa-github
+        #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          A picture is worth a thousand words. A satellite image is worth a million dollars. - Sarah Parcak
+        description: | # this will include new lines to allow paragraphs
+          The View Server (VS) is a continuation of EOxServer/Browse Server efforts to create a software stack to manage and disseminate Earth Observation data.
+      - layout: top-middle
+        title: OpenEO
+        link: https://openeo.org/
         # link_text: Project Website
         additional_links:
-          - title: sproogen/modern-resume-theme
+          - title: github/openeo
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: github.com/Open-EO
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          The Earth is what we all have in common. — Wendell Berry
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          An API for standardizing big data satellite imagery processing
+      - layout: top-middle
+        title: Austrian Data Cube
+        link: acube.eodc.eu
+        # link_text: Project Website
+        additional_links:
+          - title: Acube notebooks
+            icon: fab fa-github
+            url: https://github.com/eodcgmbh/ACube_notebooks
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Data is the new oil. — Clive Humby
+        description: | # this will include new lines to allow paragraphs
+          Bringing big data satellite imagery to the Earth Observation Comunity in Austria with OGC services (Geoserver) and python (OpenDataCube)
+      - layout: top-middle
+        title: Intersections of our world
+        link: https://intersections.geo.tuwien.ac.at/
+        # link_text: Project Website
+        # additional_links:
+        #   - title: Acube notebooks
+        #     icon: fab fa-github
+        #     url: https://github.com/eodcgmbh/ACube_notebooks
+        # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #   icon: fab fa-github
+        #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Life is a web of intersections and choices. Your 1st choice is to recognize an intersection. Your 2nd choice is to be grateful for it. ― Ryan Lilly
+        description: | # this will include new lines to allow paragraphs
+          A lightweight application for assisting researchers in wayfinding and navigation experiments
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -104,7 +149,7 @@ content:
         quote: >
           TU Wien is one of the major universities in Vienna, Austria. The university finds high international and domestic recognition in teaching as well as in research, and it is a highly esteemed partner of innovation-oriented enterprises.
         description: | # this will include new lines to allow paragraphs
-          Research and writing of master thesis regarding spatial standards ISO 19100 series, INSPIRE, LPIS and web development of a geoportal web application for agricultural subsidies.
+          Research, teaching and administrative duties. Researching geospatial data and implementing of GIS systems. Assisting in courses Implementation of a GIS, Geoinformation 1, Realisation of a GIS, Geometrical algorithms in GIS.
       - layout: left
         title: Vienna University of Technology
         link: https://www.tuwien.at/
@@ -130,6 +175,14 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Vienna University of Technology
+        caption: 2017
+        sub_title: PhD in Geodesy and Geomatics
+        quote: >
+          TU Wien is one of the major universities in Vienna, Austria. The university finds high international and domestic recognition in teaching as well as in research, and it is a highly esteemed partner of innovation-oriented enterprises.
+        description: | # this will include new lines to allow paragraphs
+          Focused on combining sociology quality of life research with GIS and programming, however due to visa I pressed pause until further notice.
+      - layout: left
         title: University of Novi Sad, Faculty of Technical Sciences
         caption: 2015 - 2016
         sub_title: Msc Geodesy and Geomatics
@@ -146,6 +199,86 @@ content:
         description: | # this will include new lines to allow paragraphs
           Courses in Land surveying, geodesy, geoinformation. Main focus in geospatial data processing, spatial databases and GIS.
 
+  - title: Achievements # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: right
+        title: OeAD Scholarship Award
+        caption: June 2016
+        sub_title: Austria
+        # quote: >
+        # The Faculty of Technical Sciences is a higher education institution located in Novi Sad, an independent part of the University of Novi Sad. It was founded on 18 May 1960 and today it is the largest faculty in Serbia by number of students and one of the largest in the region. As of 2020-21 academic year, it has a total of 15,742 students.
+        description: | # this will include new lines to allow paragraphs
+          I Received a scholarship from the Austrian Foundation for Undergraduates, Graduates und Postgraduates during the research for master thesis at Vienna Universtiy of Technology for a period of 3 months.
+      - layout: left
+        title: Dositeja Scholarship Master
+        caption: November 2015
+        sub_title: Serbia
+        description: | # this will include new lines to allow paragraphs
+          Dositeja award and scholarship for the best 400 master students in Republic of Serbia.
+      - layout: right
+        title: Dositeja Scholarship Bachelor
+        caption: November 2014
+        sub_title: Serbia
+        description: | # this will include new lines to allow paragraphs
+          Dositeja award and scholarship for the best 800 bachelor students in Republic of Serbia.
+      - layout: left
+        title: Best presentation award
+        caption: June 2015
+        sub_title: Finland
+        description: | # this will include new lines to allow paragraphs
+          Awarded best presentation by jury vote at the International Geodetic Student Meeting in Espoo, Finland. The title of the presentation was Crowdsourcing and VGI - Volunteered Geographic Information.
+      - layout: right
+        title: Best poster award
+        caption: June 2014
+        sub_title: Turkey
+        description: | # this will include new lines to allow paragraphs
+          Awarded best poster by public vote at the International Geodetic Student Meeting in Istanbul, Turkey. The title of the poster was Integration of LiDAR and UAV data.
+      - layout: left
+        title: University Paper Award
+        caption: May 2014
+        sub_title: Serbia
+        description: | # this will include new lines to allow paragraphs
+          Received an award for a student research paper with title GML and Spatial Databases.
+
+  - title: Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        title: Intersections of our world
+        caption: 2018
+        sub_title: Vienna University of Technology
+        link: https://drops.dagstuhl.de/opus/volltexte/2018/9331/pdf/LIPIcs-GISCIENCE-2018-3.pdf
+        description: | # this will include new lines to allow paragraphs
+          There are several situations where the type of a street intersections can become very important, especially in the case of navigation studies. The types of intersections affect the route complexity and this has to be accounted for, e.g., already during the experimental design phase of a navigation study. In this work we introduce a formal definition for intersection types and present a framework that allows for information about the intersections of our planet. We present a case study that demonstrates the importance and necessity of being able to extract this information.
+      - layout: top
+        title: Domain model of an agricultural information system based on standards
+        caption: 2018
+        sub_title: Vienna University of Technology
+        link: https://www.geodetski-vestnik.com/arhiv/62/1/gv62-1_jankovic.pdf
+        description: | # this will include new lines to allow paragraphs
+          To better manage data in agriculture, governmental services implement geoinformation systems. These systems may be used as an aid to calculation of subsidies, serve as means of control and as support in decision making while following the latest technologies and standards. One of the oldest policies of the EU, Common Agricultural Policy, implements a system for agricultural subsidies along with an information system to aid in enforcing it. This paper provides one design for an exhaustive geoinformation system in the Republic of Serbia and verification of said system with test data.
+      - layout: top
+        title: Comparative Analysis of the accuracy and reliability preanalysis of conventional methods and GNSS method of survey
+        caption: 2016
+        sub_title: University of Novi Sad, Faculty of technical sciences
+        link: https://www.rgz.gov.rs/content/Datoteke/Geodetska%20sluzba/Geodetska%20sluz%cc%8cba%20121.pdf
+        description: | # this will include new lines to allow paragraphs
+          The subject of this paper is the comparison of the pre-analysis accuracy for geodetic networks for special purposes with the use of conventional methods (triangulation and trilateration) and the Global Navigation Satellite System (GNSS) method of survey. Characteristics of the adjustment software JAG3D are also shown. As a practical case of the proposal geodetic network used for monitoring during the construction and exploitation of building the Tower within the project “Belgrade waterfront” is used with an emphasis on the 2D components. With the simulated design, standards of measurement and survey plan, a pre-analysis was conducted for obtaining accuracy and reliability of the geodetic network.
+      - layout: top
+        title: Application of modern geodethic methods during the construction of highrise buildings
+        caption: 2016
+        sub_title: University of Novi Sad, Faculty of technical sciences
+        link: http://www.gf.uns.ac.rs/~zbornik/doc/NS2016.100.pdf
+        description: | # this will include new lines to allow paragraphs
+          The realization of geodetic work for construction of high rise buildings is shown in the paper. With the example of integrated multi-sensor system (Global Navigation Satellite System (GNSS), inclinometers, total station, meteorological sensors), and a concept design of a permanent monitoring in real time as well as geodetic stakeout during the construction of a high rise building for the tower in the „Belgrade Waterfront” project is shown.
+      - layout: top
+        title: Utility Information Systems - Practice book
+        caption: 2015
+        sub_title: University of Novi Sad, Faculty of technical sciences
+        description: | # this will include new lines to allow paragraphs
+          Coauthored a practice book for the undergraduate students taking the course Utility Information Systems. Published by the University of Novi Sad. ISBN: 978-86-7892-822-2.
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -153,10 +286,9 @@ content:
       - Traveling
       - Reading
       - Research / Teaching / Lifelong learning
-      - Gaming
+      - Video and board gaming
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      ![Trees](/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
